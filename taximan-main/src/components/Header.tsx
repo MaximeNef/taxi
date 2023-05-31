@@ -6,23 +6,23 @@ const Header = () => {
   return (
     <div className='w-full z-10 bg-theme-yellow flex flex-row  items-center py-[10px] px-[19px]  fixed top-0 left-0 right-0 '>
       <div className='flex flex-row items-center'>
-        <a href='tel: 0032/489.59.36.82'>
-          <Image
-            className=' xsm:w-[190px] '
-            src='assets/logos/logo.svg'
-            alt="logo d'un telephone"
-            width={150}
-            height={150}
-          />
-        </a>
+        <Image
+          className=' xsm:w-[190px] '
+          src='assets/logos/logo.svg'
+          alt="logo d'un telephone"
+          width={150}
+          height={150}
+        />
       </div>
-      <Image
-        className='absolute xsm:hidden sm:block top-[18px] right-[20px]'
-        src='assets/logos/phoneLogo.svg'
-        alt="logo d'un hibou"
-        width={28}
-        height={28}
-      />
+      <a href='tel: 0032/489.59.36.82'>
+        <Image
+          className='absolute xsm:hidden sm:block top-[18px] right-[20px]'
+          src='assets/logos/phoneLogo.svg'
+          alt="logo d'un hibou"
+          width={28}
+          height={28}
+        />
+      </a>
       <ButtonWhite
         background={true}
         className='xsm:block ssm:hidden  w-auto absolute top-[15px] right-[20px] py-[10px] px-[24px]  '
