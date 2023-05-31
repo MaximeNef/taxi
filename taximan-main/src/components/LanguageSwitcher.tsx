@@ -22,8 +22,8 @@ const LanguageSwitcher = ({ className }: Props) => {
       >
         <option
           className='option select option h-20 w-20 pl-5 pr-2 py-2'
-          data-image='/assets/logos/fr.svg'
-          style={{ backgroundImage: "url-loader!url('/assets/logos/fr.svg')" }}
+          data-image='/assets/logos/ne.svg'
+          style={{ backgroundImage: "url-loader!url('/assets/logos/ne.svg')" }}
           value='nl'
         >
           NL
