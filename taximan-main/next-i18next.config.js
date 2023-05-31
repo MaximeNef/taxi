@@ -1,8 +1,6 @@
-module.exports = 
-{
-    i18n: 
-    {
-      defaultLocale: 'fr',
-      locales: ['fr', 'en', 'nl'],
-    },
-}
+module.exports = {
+  i18n: {
+    defaultLocale: "nl",
+    locales: ["fr", "en", "nl"],
+  },
+};
