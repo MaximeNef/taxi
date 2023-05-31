@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base
+
+{
+
+
+    .subsection-wrapper:not(:last-child) 
+    {
+      border-right: 1px solid #6D6D6D;
+    }
+
+    .hero-bg-custom 
+    {
+      background-position: center 20%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 100% 100%, 0.0% 94.81%, 0% 80%);
+    }
+    .clipPath 
+    {
+      background-position: 65% ;
+      clip-path: polygon(0% 2%, 100% 5.19%, 100% 100%, 0% 100%, 0% 80%);
+    }
+
+    select option 
+    {
+      padding-left: 24px;
+    }
+
+    select option.bg-image1
+     {
+      padding-left: 48px;
+      background-image: url('/assets/logos/fr.svg');
+      background-size: cover;
+    }
+
+    select option.bg-image2
+    {
+     padding-left: 48px;
+     background-image: url('/assets/logos/en.svg');
+     background-size: cover;
+   }
+   
+   select option.bg-image2
+   {
+    padding-left: 48px;
+    background-image: url('/assets/logos/ne.svg');
+    background-size: cover;
+  }
+  
+    
+    select 
+    {
+      background-color: #FFC000;
+      margin-right: 10px ;
+      width: 60px;
+      border-radius: 10px;
+      padding: 10px;
+      font-family: 'Bebas Neue', sans-serif;
+      color: #fff;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url('/assets/logos/arrow.svg');
+      background-repeat: no-repeat;
+      background-position: calc(100% - 10px ) 12.5px;      
+      background-size: 16px;
+      border: none;
+      box-sizing: none;
+    
+    }
+    
+    select:focus 
+    {
+      outline: none; 
+      box-shadow: none; 
+      background-image: url('/assets/logos/arrow.svg');
+      border: none;
+    }
+    
+    select option 
+    {
+        background-image: url('/assets/logos/fr.svg');
+    }
+
+    select::-ms-expand 
+    {
+      display: none;
+    } 
+
+    .phone-icon:hover 
+    {
+      color: #f44336; /* set the color of the SVG on hover */
+    }
+}
+
+@font-face 
+{
+  font-family: 'Bebas Neue';
+  src:
+       url('/public/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
