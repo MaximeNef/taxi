@@ -16,19 +16,17 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
     <>
-      <Head>
-        {/* UXWIZZ script update script */}
-        <Script id='uxwizz'>
-          UST_CT = []; UST = "
-          {"s: Date.now(), addTag: function(tag) {UST_CT.push(tag)} "}
-          ";UST.addEvent = UST.addTag;
-        </Script>
-        <Script
-          src='https://stats.listri.digital/server/ust.min.js?v=4.5.0'
-          async
-        ></Script>
-        {/* FIN UXWIZZ script  */}
-      </Head>
+      {/* UXWIZZ script update script */}
+      <Script>
+        UST_CT = []; UST = "
+        {"s: Date.now(), addTag: function(tag) {UST_CT.push(tag)} "}
+        ";UST.addEvent = UST.addTag;
+      </Script>
+      <Script
+        src='https://stats.listri.digital/server/ust.min.js?v=4.5.0'
+        async
+      ></Script>
+      {/* FIN UXWIZZ script  */}
       <I18nextProvider i18n={i18n}>
         <Component {...pageProps} />
       </I18nextProvider>{" "}
