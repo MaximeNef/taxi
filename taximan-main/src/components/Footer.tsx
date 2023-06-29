@@ -34,7 +34,7 @@ const Footer = () =>
                         width={15}
                         height={15}
                         />      
-                        <a href="mailto:gabymilles12@gmail.com" className="font-dosis ssm:text-[15px] xsm:text-[18px]">gabymilles12@gmail.com</a>          
+                        <a href="mailto:gabymilles@yahoo.com" className="font-dosis ssm:text-[15px] xsm:text-[18px]">gabymilles@yahoo.com</a>          
                     </div>
                 </div>
             </div>
