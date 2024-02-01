@@ -16,7 +16,7 @@ const LanguageSwitcher = ({ className }: Props) => {
   return (
     <div className={`${className}`}>
       <select
-        className={`.select .select:focus font-dosis text-[12px] select::-ms-expand `}
+        className={`.select .select:focus font-dosis text-[12px] select::-ms-expand bg-theme-yellow`}
         value={i18n.language}
         onChange={handleLanguageChange}
       >

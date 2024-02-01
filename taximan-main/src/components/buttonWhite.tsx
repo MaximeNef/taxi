@@ -23,7 +23,7 @@ const ButtonWhite = ({ className, background }: Props) => {
           {t("lastSection.button")}
         </a>
         <Image
-          src='assets/logos/phoneYellow.svg'
+          src='assets/logos/phoneLogoBlue.svg'
           alt='logo telephone'
           className='.phone-icon'
           width={20}
