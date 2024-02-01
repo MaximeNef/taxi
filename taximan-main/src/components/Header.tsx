@@ -8,8 +8,8 @@ const Header = () => {
       <div className='flex flex-row items-center'>
         <Image
           className=' xsm:w-[190px] '
-          src='/assets/logos/streettaxiv2.png'
-          alt="logo d'un telephone"
+          src='/assets/logos/streettaxi.png'
+          alt='logo du site'
           width={150}
           height={150}
         />
