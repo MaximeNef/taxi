@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='flex flex-row ssm:m-auto lg:mr-[120px]'>
           <Image
             className='xsm:w-[270px] xsm:pt-[10px]'
-            src='/assets/logos/streettaxiv2.png'
+            src='/assets/logos/streettaxi.png'
             alt="logo d'un hibou"
             width={150}
             height={150}
