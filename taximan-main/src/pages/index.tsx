@@ -14,8 +14,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Street Taxi Knokke</title>
-        <meta name='description' content='Street Taxi Knokke ' />
+        <title>
+          {" "}
+          Street Taxi Knokke | Taxi Knokke | Taxibedrijf uit Knokke-HeistTaxi
+          Knokke | Taxi Service{" "}
+        </title>
+        <meta
+          name='description'
+          content=' Street Taxi Knokke | Taxi Knokke | Taxibedrijf uit Knokke-HeistTaxi
+          Knokke | Taxi Service'
+        />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta
           name='google-site-verification'
